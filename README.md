@@ -1,4 +1,4 @@
-# docker-alpine-php-laravel
+# Docker - Alpine - PHP - Laravel
 Imagem para PHP e Laravel com Alpine
 
 - PHP 5
