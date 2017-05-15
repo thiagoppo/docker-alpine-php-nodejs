@@ -60,8 +60,6 @@ RUN apk --update add \
 
   #Install NodeJS
   nodejs \
-  #&& ln -s /usr/local/bin/nodejs /usr/local/bin/node \
-  #&& nodejs-legacy \
 
   #Install NPM
   && curl -L https://npmjs.org/install.sh | sh \
