@@ -1,10 +1,7 @@
-# docker-alpine-php-laravel-nodejs
-Imagem para PHP,Laravel e NodeJS com Alpine
-[Docker Hub](https://hub.docker.com/r/thiagoppo/docker-alpine-php-laravel-nodejs/).
+# docker-alpine-php-nodejs
+Imagem com Alpine, PHP 5.6 e NodeJS
+[Docker Hub](https://hub.docker.com/r/thiagoppo/docker-alpine-php-nodejs/).
 
-- PHP 5
-- Laravel 5.4
+- PHP 5.6
 - Composer
 - NodeJS
-- Bower
-- Gulp
