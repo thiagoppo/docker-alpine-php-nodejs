@@ -64,23 +64,8 @@ RUN apk --update add \
   #Install NPM
   && curl -L https://npmjs.org/install.sh | sh \
 
-  #Install Bower, Gulp e Less
-  && npm install bower -g \
-  npm install gulp -g \
-  npm install less -g \
-  npm link bower \
-  npm link gulp \
-  npm link less \
-
   #Install Composer
   && curl -sS https://getcomposer.org/installer | php && mv composer.phar /usr/local/bin/composer \
-
-  #Install PHP Unit
-  && composer global require "phpunit/phpunit" \
-  && ln -s /tmp/vendor/bin/phpunit /usr/local/bin/phpunit \
-
-  #Install Laravel
-  && composer global require "laravel/installer" \
 
   #Configuring php.ini
   && sed -i "s|;*daemonize\s*=\s*yes|daemonize = no|g" /etc/php/php-fpm.conf && \
